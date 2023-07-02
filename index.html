@@ -92,14 +92,14 @@
     <script>
         $(document).ready(function () {
             fetch("http://spartacodingclub.shop/sparta_api/weather/seoul").then(res => res.json()).then(data => {
-                console.log(data)
-                let temp = data['temp']
-                $('#temp').text(temp)
+                // console.log(data)
+                let number = data['temp']
+                $('#temp').text(number)
             })
         })
     </script>
 
-</head>
+</head>s
 
 <body>
     <div class="mytitle">
@@ -124,7 +124,7 @@
                 <option value="5">⭐⭐⭐⭐⭐</option>
             </select>
         </div>
-
+        ㄴ
 
         <div class="form-floating">
             <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
